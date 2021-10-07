@@ -1,0 +1,82 @@
+.navbar{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    background-color: slategray;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10% 0px 10%;
+}
+
+.navRight{
+    display: flex;
+    flex-direction: row;
+}
+
+.linkContainer{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.navLink{
+    margin: 10px 10px 0px 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-bottom: transparent 3px solid;
+    transition: border-color .4s ease-in;
+}
+
+.hireMe{
+    background-color: #5976ad;
+    margin: 16px 10px 10px 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: rgb(93, 106, 121) solid 2px;
+    transition: background-color .3s linear;
+}
+
+.hireMe:hover{
+    background-color: #506b9f;
+    cursor: pointer;
+}
+
+.hireMe a{
+    text-decoration: none;
+    color: white;
+}
+
+.navLink:hover{
+    border-color: white;
+}
+
+.logo{
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    margin: 20px;
+    width: 100px;
+}
+
+.navLogo{
+    display: flex;
+}
+
+.logoRight{
+    display: flex;
+    flex-direction: column;
+}
+
+.navName{
+    margin: 50px 0 0 0;
+    font-size: 18pt;
+    color: white;
+}
+
+.navSnip{
+    margin-top: 0px;
+    font-size: 10pt;
+    color: white;
+}
