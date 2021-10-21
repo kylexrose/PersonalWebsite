@@ -1,7 +1,59 @@
-body{
-  background-image: url("./Components/pictures/business-2717063_1920.jpg");
+
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color:#666;
+}
+
+.pimg1, .pimg2, .pimg3{
+  position: relative;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  min-width: 540px;
+  z-index: 0;
+}
+
+.pimg1{
+  background-image: url('./Components/pictures/landingPage.jpg');
+  min-height: 100vh;
+}
+
+.pimg2{
+  background-image: url('./Components/pictures/laptop+notebook.jpg');
+  min-height: 100vh;
+}
+
+.pimg3{
+  background-image: url('./Components/pictures/portfolio.jpg');
+  min-height: 100vh;
+}
+
+.section{
+  text-align:center;
+  padding: 50px 80px;
+}
+
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: rgb(241, 237, 237);
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.welcome{
+  font-size: 47px;
+  font-weight: 900;
 }

@@ -1,17 +1,17 @@
 .navbar{
-    position: sticky;
-    display: flex;
-    flex-direction: row;
-    background-color: slategray;
-    height: 100px;
+    position: fixed;
+    background-image:linear-gradient(rgba(14, 11, 11, 0.25), rgba(14, 11, 11, 0.25));    height: 70px;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 10% 0px 10%;
+    padding: 20px;
+    height: 100%;
+    z-index: 2;
+    
 }
 
 .navRight{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .linkContainer{
@@ -30,16 +30,19 @@
 }
 
 .hireMe{
-    background-color: #5976ad;
+    background-color: #88898c;
     margin: 16px 10px 10px 10px;
-    padding: 15px;
+    padding: 8px;
     border-radius: 5px;
-    border: rgb(93, 106, 121) solid 2px;
+    border: rgb(88, 88, 89) solid 2px;
     transition: background-color .3s linear;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .hireMe:hover{
-    background-color: #506b9f;
+    background-color: #7a7979;
     cursor: pointer;
 }
 
