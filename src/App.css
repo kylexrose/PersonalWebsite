@@ -21,21 +21,33 @@ body, html{
 .pimg1{
   background-image: url('./Components/pictures/landingPage.jpg');
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .pimg2{
   background-image: url('./Components/pictures/laptop+notebook.jpg');
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .pimg3{
   background-image: url('./Components/pictures/portfolio.jpg');
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section{
   text-align:center;
-  padding: 50px 80px;
+  padding: 20px 80px;
 }
 
 .section-dark{
@@ -53,7 +65,77 @@ body, html{
   text-transform: uppercase;
 }
 
+.title{
+  color: black;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.summary-text p{
+  font-size: large;
+  padding: 20px;
+}
+
+.experience{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-background{
+  background-color: whitesmoke;
+  margin-left: 200px;
+  max-width: 75%;
+  color: black;
+
+}
+
 .welcome{
   font-size: 47px;
   font-weight: 900;
+}
+
+.projects{
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project-window{
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  width:350px;
+  height: 450px;
+  border-radius: 15px;
+  border-style: inset;
+  opacity: .75;
+  background-color: #666;
+}
+
+.project-preview{
+  width: auto;
+  height: auto;
+  margin: 15px;
+  margin-bottom: 0;
+}
+
+.project-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-title{
+  font-size: large;
+  color: white;
+  font-weight: 900;
+}
+
+.project-summary{
+  color: white;
+  padding: 10px;
 }

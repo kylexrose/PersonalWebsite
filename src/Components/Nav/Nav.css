@@ -1,6 +1,6 @@
 .navbar{
     position: fixed;
-    background-image:linear-gradient(rgba(14, 11, 11, 0.25), rgba(14, 11, 11, 0.25));    height: 70px;
+    background-image:linear-gradient(rgba(14, 11, 11, 0.25), rgba(14, 11, 11, 0.25));    
     align-items: center;
     justify-content: space-between;
     padding: 20px;
