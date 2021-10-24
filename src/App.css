@@ -111,8 +111,7 @@ body, html{
   height: 450px;
   border-radius: 15px;
   border-style: inset;
-  opacity: .75;
-  background-color: #666;
+  background-image:linear-gradient(rgba(141, 140, 140, 0.85), rgba(141, 140, 140, 0.85));    
 }
 
 .project-preview{
@@ -138,4 +137,9 @@ body, html{
 .project-summary{
   color: white;
   padding: 10px;
+}
+
+.story{
+  margin: 0 100px;
+  text-align: start;
 }
