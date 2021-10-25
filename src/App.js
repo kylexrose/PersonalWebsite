@@ -3,7 +3,6 @@ import './App.css';
 import bb_preview from './Components/pictures/bb_preview.png'
 import weather_preview from './Components/pictures/weather_preview.png'
 
-
 function App() {
   return (
     <div>
@@ -32,20 +31,31 @@ function App() {
       <div className="pimg3">
         <div className="">
           <div className="projects">
-            <div className="project-window">
-              <img className="project-preview bb-preview" src={bb_preview}/>
+            <a className="project-window" href="https://brutalbudget.kylexrose.com/signup" target="_blank">
+              <img className="project-preview bb-preview" src={bb_preview} alt="budgeting app preview"/>
               <div className="project-text">
                 <p className="project-title">Brutal Budget</p>
-                <p className="project-summary">A fully deployed budgeting application for desktop browser using MERN stack. (Mobile interface coming soon)</p><img className="git"/>
+                <p className="project-summary">A fully deployed budgeting application for desktop browser using MERN stack. (Mobile interface coming soon)</p>
+                {/* <div className="gitlinks">
+                  <a href="https://github.com/kylexrose/brutal-budget-frontend" target="_blank">
+                    Frontend
+                    <img className="git" alt="github link" src={gitImage}/>
+                  </a>
+                  <a href="https://github.com/kylexrose/budgetingApp-backend" target="_blank">
+                    Backend
+                    <img className="git" alt="github link" src={gitImage}/>
+                  </a>
+                </div> */}
               </div>
-            </div>
-            <div className="project-window">
-              <img className="project-preview" src={weather_preview}/>
+            </a>
+            <a className="project-window" href="https://weather.kylexrose.com/" target="_blank">
+              <img className="project-preview" src={weather_preview} alt="weather app preview"/>
               <div className="project-text">
                 <p className="project-title">Weather.com Facsimile</p>
-                <p className="project-summary">A copy of a weather.com page using only JavaScript, html, and CSS</p><img className="git"/>
+                <p className="project-summary">A copy of a weather.com page using only JavaScript, html, some Bootstrap, and CSS</p>
+                {/* <img className="git" alt="github link" src={gitImage}/> */}
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -61,8 +71,12 @@ function App() {
         </div>
       </div>
       <section className="section section-dark">
-          <h2>Footer</h2>
-          <p>Contact Info here</p>
+          <h2>Think I'd be a good fit?</h2>
+          <p className="contactInfo">
+            Kyle Rose<br/>
+            Email: kylexrose@gmail.com<br/>
+            Phone: (+1) 913 210 9431
+          </p>
       </section>
     </div>
   );

@@ -99,19 +99,22 @@ body, html{
 .projects{
   width: 80vw;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
 .project-window{
   min-width: 300px;
+  margin: 15px;
   display: flex;
   flex-direction: column;
   width:350px;
-  height: 450px;
+  height: auto;
   border-radius: 15px;
-  border-style: inset;
-  background-image:linear-gradient(rgba(141, 140, 140, 0.85), rgba(141, 140, 140, 0.85));    
+  box-shadow: 5px 5px 10px #666;
+  background-image:linear-gradient(rgba(141, 140, 140, 0.85), rgba(141, 140, 140, 0.85)); 
+  text-decoration: none;   
 }
 
 .project-preview{
@@ -142,4 +145,13 @@ body, html{
 .story{
   margin: 0 100px;
   text-align: start;
+}
+
+.gitlinks{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contactInfo{
+  
 }
