@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Nav/>
-      <div className="pimg1">
+      <div id="overview" className="pimg1">
         <div className="ptext">
           <span className="welcome">
             Hi, I'm Kyle Rose.
@@ -28,7 +28,7 @@ function App() {
       </div>
       <section className="section section-dark">
       </section>
-      <div className="pimg3">
+      <div id="projects" className="pimg3">
         <div className="">
           <div className="projects">
             <a className="project-window" href="https://brutalbudget.kylexrose.com/signup" target="_blank">
@@ -60,7 +60,7 @@ function App() {
           </div>
         </div>
       </div>
-      <section className="section section-dark">
+      <section id="about" className="section section-dark">
           <h2>My Story...</h2>
           <p className="story">I have a nag for logic. Following some time in the US Army, I graduated with a BA from university with a desire to utilize my studies immediately. I worked at an international school in China teaching AP Psychology and Statistics. After the worldwide pandemic, I decided to revisit an old love of mine in programming. I ended up loving it. Now I use my interest in creating and problem-solving to hone my craft as I pursue full-time employment at a company I know will be glad they hired me. </p>
       </section>
@@ -71,7 +71,7 @@ function App() {
           </div>
         </div>
       </div>
-      <section className="section section-dark">
+      <section id="contact" className="section section-dark">
           <h2>Think I'd be a good fit?</h2>
           <p className="contactInfo">
             Kyle Rose<br/>
