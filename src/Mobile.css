@@ -22,10 +22,13 @@
         align-items: flex-start;
         width: auto;
     }
-    #about h2{
+    section h2{
         margin: 0px
     }
     .story{
         margin: 0px;
+    }
+    .contactInfo{
+        margin-left: 0px;
     }
 }
