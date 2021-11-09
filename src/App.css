@@ -106,6 +106,7 @@ html{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  margin-left: 200;
   justify-content: space-evenly;
 }
 
@@ -147,9 +148,9 @@ html{
   padding: 10px;
 }
 
-#about h2{
+section h2{
   margin-left: 200px;
-  
+
 }
 
 .story{
@@ -163,5 +164,5 @@ html{
 }
 
 .contactInfo{
-  
+  margin-left: 200px;
 }
