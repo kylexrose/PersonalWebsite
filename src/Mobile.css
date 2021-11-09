@@ -19,7 +19,7 @@
         margin-left: 30px;
     }
     .project-preview{
-        width: auto;
+        align-items: flex-start;
     }
     #about h2{
         margin: 0px
