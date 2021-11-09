@@ -5,6 +5,10 @@
     .welcome{
         font-size: 12pt;
     }
+
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: inherit;
+    }
     .experience{
         display: flex;
     }
