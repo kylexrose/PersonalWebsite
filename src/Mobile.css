@@ -20,6 +20,7 @@
     }
     .project-preview{
         align-items: flex-start;
+        width: auto;
     }
     #about h2{
         margin: 0px
