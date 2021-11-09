@@ -1,5 +1,6 @@
 import Nav from './Components/Nav/Nav';
 import './App.css';
+import './Mobile.css';
 import bb_preview from './Components/pictures/bb_preview.png'
 import weather_preview from './Components/pictures/weather_preview.png'
 
@@ -62,15 +63,8 @@ function App() {
       </div>
       <section id="about" className="section section-dark">
           <h2>My Story...</h2>
-          <p className="story">I have a nag for logic. Following some time in the US Army, I graduated with a BA from university with a desire to utilize my studies immediately. I worked at an international school in China teaching AP Psychology and Statistics. After the worldwide pandemic, I decided to revisit an old love of mine in programming. I ended up loving it. Now I use my interest in creating and problem-solving to hone my craft as I pursue full-time employment at a company I know will be glad they hired me. </p>
+          <p className="story">I have a knack for logic. Following some time in the US Army, I graduated with a BA from university with a desire to utilize my studies immediately. I worked at an international school in China teaching AP Psychology and Statistics. After the worldwide pandemic, I decided to revisit an old love of mine in programming. I ended up loving it. Now I use my interest in creating and problem-solving to hone my craft as I pursue full-time employment at a company I know will be glad they hired me. </p>
       </section>
-      <div className="pimg4">
-        <div className="ptext">
-          <div className="projects">
-
-          </div>
-        </div>
-      </div>
       <section id="contact" className="section section-dark">
           <h2>Think I'd be a good fit?</h2>
           <p className="contactInfo">

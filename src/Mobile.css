@@ -1,0 +1,30 @@
+@media only screen and (max-width:500px) {
+    .navbar{
+        display:none
+    }
+    .welcome{
+        font-size: 12pt;
+    }
+    .experience{
+        display: flex;
+    }
+    .summary-text{
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+    .text-background{
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .project-preview{
+        width: auto;
+    }
+    #about h2{
+        margin: 0px
+    }
+    .story{
+        margin: 0px;
+    }
+}
