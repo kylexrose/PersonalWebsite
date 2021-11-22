@@ -49,12 +49,11 @@ function App() {
                 </div> */}
               </div>
             </a>
-            <a className="project-window" href="#" target="_blank">
+            <a className="project-window" href="http://kylexrose.com.s3-website-us-east-1.amazonaws.com/" target="_blank">
               <img className="project-preview" src={weather_preview} alt="weather app preview"/>
               <div className="project-text">
                 <p className="project-title">Weather.com Facsimile</p>
                 <p className="project-summary">A copy of a weather.com page using only JavaScript, html, some Bootstrap, and CSS.</p><br/>
-                <p>Preview Coming Soon</p>
                 {/* <img className="git" alt="github link" src={gitImage}/> */}
               </div>
             </a>
