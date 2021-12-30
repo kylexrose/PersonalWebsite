@@ -3,6 +3,7 @@ import './App.css';
 import './Mobile.css';
 import bb_preview from './Components/pictures/bb_preview.png'
 import weather_preview from './Components/pictures/weather_preview.png'
+import ss_preview from './Components/pictures/savvyspace_preview.png'
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
       <div id="projects" className="pimg3">
         <div className="">
           <div className="projects">
-            <a className="project-window" href="https://brutalbudget.kylexrose.com/signup" target="_blank">
+            <a className="project-window" href="https://github.com/kylexrose/brutal-budget-frontend/" target="_blank">
               <img className="project-preview bb-preview" src={bb_preview} alt="budgeting app preview"/>
               <div className="project-text">
                 <p className="project-title">Brutal Budget</p>
@@ -54,6 +55,15 @@ function App() {
               <div className="project-text">
                 <p className="project-title">Weather.com Facsimile</p>
                 <p className="project-summary">A copy of a weather.com page using only JavaScript, html, some Bootstrap, and CSS.</p><br/>
+                {/* <img className="git" alt="github link" src={gitImage}/> */}
+              </div>
+            </a>
+            <a className="project-window" href="https://savvyspace.kylexrose.com/login" target="_blank">
+              <img className="project-preview" src={ss_preview} alt="LMS app preview"/>
+              <div className="project-text">
+                <p className="project-title">Savvy Space</p>
+                <p className="project-summary">A learning management system built with react/redux and Node.js and mySQL.
+                <br/><b>username</b>: "eventloop" <br/><b>password</b>: "hello123" for demo</p><br/>
                 {/* <img className="git" alt="github link" src={gitImage}/> */}
               </div>
             </a>
