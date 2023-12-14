@@ -50,7 +50,7 @@ function App() {
                 </div> */}
               </div>
             </a>
-            <a className="project-window" href="http://kylexrose.com.s3-website-us-east-1.amazonaws.com/" target="_blank">
+            <a className="project-window" href="https://github.com/kylexrose/weatherApp" target="_blank">
               <img className="project-preview" src={weather_preview} alt="weather app preview"/>
               <div className="project-text">
                 <p className="project-title">Weather.com Facsimile</p>
@@ -58,12 +58,11 @@ function App() {
                 {/* <img className="git" alt="github link" src={gitImage}/> */}
               </div>
             </a>
-            <a className="project-window" href="https://savvyspace.kylexrose.com/login" target="_blank">
+            <a className="project-window" href="https://github.com/kylexrose/savvy-space-frontend" target="_blank">
               <img className="project-preview" src={ss_preview} alt="LMS app preview"/>
               <div className="project-text">
                 <p className="project-title">Savvy Space</p>
-                <p className="project-summary">A learning management system built with react/redux and Node.js and mySQL.
-                <br/><b>username</b>: "eventloop" <br/><b>password</b>: "hello123" for demo</p><br/>
+                <p className="project-summary">A learning management system built with react/redux and Node.js and mySQL.</p>
                 {/* <img className="git" alt="github link" src={gitImage}/> */}
               </div>
             </a>

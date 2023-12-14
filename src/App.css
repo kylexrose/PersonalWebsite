@@ -166,3 +166,89 @@ section h2{
 .contactInfo{
   margin-left: 200px;
 }
+
+.navbar{
+  position: fixed;
+  background-image:linear-gradient(rgba(14, 11, 11, 0.25), rgba(14, 11, 11, 0.25));    
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100%;
+  z-index: 2;
+  
+}
+
+.navRight{
+  display: flex;
+  flex-direction: column;
+}
+
+.linkContainer{
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.navLink{
+  margin: 10px 10px 0px 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-bottom: transparent 3px solid;
+  transition: border-color .4s ease-in;
+}
+
+.hireMe{
+  background-color: #88898c;
+  margin: 16px 10px 10px 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: rgb(88, 88, 89) solid 2px;
+  transition: background-color .3s linear;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hireMe:hover{
+  background-color: #7a7979;
+  cursor: pointer;
+}
+
+.hireMe a{
+  text-decoration: none;
+  color: white;
+}
+
+.navLink:hover{
+  border-color: white;
+}
+
+.logo{
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  margin: 20px;
+  width: 100px;
+}
+
+.navLogo{
+  display: flex;
+}
+
+.logoRight{
+  display: flex;
+  flex-direction: column;
+}
+
+.navName{
+  margin: 50px 0 0 0;
+  font-size: 18pt;
+  color: white;
+}
+
+.navSnip{
+  margin-top: 0px;
+  font-size: 10pt;
+  color: white;
+}
